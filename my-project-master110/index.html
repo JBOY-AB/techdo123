@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio </title>
+    <link rel="stylesheet" href="asest/style/style.css">
+    <link rel="stylesheet" href="asest/style/fontawesome/css/all.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="nav-list">
+
+                <label>
+                    <h1>techDo</h1>
+                </label>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>software engineer</p>
+                <h1>Hi, I'm <span>Jeremiah</span><br>i am a web developer.</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mouse-scroll">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <div class="mouse-arrow">
+            <span></span>
+        </div>
+    </div>
+    <!-- -----------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="asest/personal-portfolio-img/images/IMG_4890.jpeg" alt="omage">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>I'm a passionate Frontend Developer dedicated to crafting modern, interactive, and user-friendly
+                        web applications. With expertise in Next.js, React, and Tailwind CSS, I specialize in building
+                        sleek, responsive, and high-performance digital experiences.
+                        I’m always eager to learn, experiment, and refine my skills. My journey in frontend development
+                        is driven by a passion for clean design, seamless performance, and intuitive user interactions.
+                        You can find my projects on GitHub, where I continuously push my creativity and technical
+                        expertise.
+                    </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+
+                            <li><span>Web Development</span><br> I specialize in building fully custom websites tailored
+                                to your unique business needs. Whether you're looking for a personal website, business
+                                site, or portfolio, I use modern web technologies to craft responsive, SEO-friendly, and
+                                user-centered websites that perform across all devices and platforms. </li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>internship</span><br>
+
+                                My internship at Brainycodes was my first professional experience in web development. I
+                                contributed to several projects by writing clean, maintainable code in HTML, CSS, and
+                                JavaScript,React,node,and nextjs. I also assisted in debugging and improving website
+                                functionality. This
+                                position was pivotal in shaping my understanding of web development principles and gave
+                                me the foundation for my career in frontend development.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>web Development at HoneyTreatAcademy</li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------------------services-------------------- -->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Developer</h2>
+                        <p>With expertise in React, Next.js, and JavaScript, I develop dynamic and interactive web
+                            applications. Whether you're building a simple landing page or a complex, data-driven app, I
+                            ensure a smooth and seamless user experience.
+                        </p>
+
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I believe that great design is crucial for the success of any project. I offer intuitive
+                            UI/UX design services, focusing on creating interfaces that are not only beautiful but also
+                            functional. I use tools like Figma and Adobe XD to turn your vision into interactive designs
+                            and implement them into high-performance websites.</p>
+
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>Graphic designer</h2>
+                        <p>I offer complete brand identity design services that include logos, color schemes,
+                            typography, and iconography. I help businesses build a cohesive visual identity that
+                            communicates their values and mission, making your brand instantly recognizable.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- -----------------------------portfolio-------------------- -->
+        <div id="portfolio">`
+            <div class="container">
+                <h1 class="sub-title">My Portfolio</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="asest/personal-portfolio-img/images/work-1.png" alt="workpng1">
+                        <div class="layer">
+                            <h3>mobile resposive </h3>
+                            <p>
+                                Are you looking for tips on making your portfolio mobile-responsive, or do you need help
+                                with a specific feature? Since you're building it with HTML and CSS, using flexbox,
+                                grid, and media queries will be key for responsiveness. Let me know if you want a code
+                                example or a review of what you have so far! 🚀
+                            </p>
+                            <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="asest/personal-portfolio-img/images/work-2.png" alt="workpng1">
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>
+                                If you're thinking of a functional music app, you might need:
+                                🎵 Audio playback (using JavaScript/React hooks)
+                                🎛 Music controls (play, pause, skip, volume)
+                                📂 Playlist management
+                                🎨 Responsive UI
+                            </p>
+                            <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="asest/personal-portfolio-img/images/work-3.png" alt="workpng1">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>
+
+                                Are you looking to build an online shopping app yourself, or are you searching for an
+                                existing one to use? If you're building one, do you want it in React (Next.js) or just
+                                HTML, CSS, and JavaScript? Let me know your goals! 🚀Are you looking to build an online
+                                shopping app yourself, or are you searching for an existing one to use? If you're
+                                building one, do you want it in React (Next.js) or just HTML, CSS, and JavaScript? Let
+                                me know your goals! 🚀
+                            </p>
+                            <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- --------------------------------contact---------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>Jeremiahayoola350@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>07040758250</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                        </div>
+                        <a href="/asest/personal-portfolio-img/images/my-cv.pdf" download class="btn btn2">Download
+                            Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @ jayboyTech <i class="fas fa-heart"></i></p>
+            </div>
+            <a href="#top" class="scroll-to-top">
+                ↑
+            </a>
+
+
+
+
+
+
+
+
+
+            <!-- --------------------------------------javascript---------------------------- -->
+
+
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link")
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+            <script>
+                var sidemeu = document.getElementById("sidemenu");
+
+                function openmenu() {
+                    sidemeu.style.right = "0";
+                }
+                function closemenu() {
+                    sidemeu.style.right = "-200px";
+                }
+
+
+            </script>
+
+</body>
+
+</html>
